@@ -1,0 +1,2 @@
+/usr/bin/ar cr libkokkostsqr.a  CMakeFiles/kokkostsqr.dir/Tsqr_TrivialTimer.cpp.o CMakeFiles/kokkostsqr.dir/Tsqr_SeqTest.cpp.o CMakeFiles/kokkostsqr.dir/Tsqr_ApplyType.cpp.o CMakeFiles/kokkostsqr.dir/Tsqr_StatTimeMonitor.cpp.o CMakeFiles/kokkostsqr.dir/Tsqr_CombineTest.cpp.o CMakeFiles/kokkostsqr.dir/Tsqr_GlobalTimeStats.cpp.o CMakeFiles/kokkostsqr.dir/Tsqr_TimeStats.cpp.o
+/usr/bin/ranlib libkokkostsqr.a

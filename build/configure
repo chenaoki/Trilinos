@@ -1,0 +1,58 @@
+#!/bin/bash
+
+EXTRA_ARGS=$@
+
+cmake \
+-D CMAKE_BUILD_TYPE:STRING=RELEASE \
+\
+-D Trilinos_ENABLE_Amesos:BOOL=ON \
+-D Trilinos_ENABLE_Anasazi:BOOL=ON \
+-D Trilinos_ENABLE_AztecOO:BOOL=ON \
+-D Trilinos_ENABLE_Epetra:BOOL=ON \
+-D Trilinos_ENABLE_EpetraExt:BOOL=ON \
+-D Trilinos_ENABLE_Galeri:BOOL=OFF \
+-D Trilinos_ENABLE_Ifpack:BOOL=ON \
+-D Trilinos_ENABLE_Isorropia:BOOL=OFF \
+-D Trilinos_ENABLE_Kokkos:BOOL=ON \
+-D Trilinos_ENABLE_ML:BOOL=ON \
+-D Trilinos_ENABLE_TESTS:BOOL=OFF \
+-D Trilinos_ENABLE_Tpetra:BOOL=ON \
+-D Trilinos_ENABLE_Teuchos:BOOL=ON \
+-D Trilinos_ENABLE_ThreadPool:BOOL=ON \
+-D Trilinos_ENABLE_Triutils:BOOL=ON \
+-D Trilinos_ENABLE_Zoltan:BOOL=ON \
+\
+-D Trilinos_ENABLE_CXX11:BOOL=ON \
+\
+-D Trilinos_EXTRA_LINK_FLAGS:STRING="-lpthread" \
+-D TPL_ENABLE_Pthread:BOOL=ON \
+\
+-D TPL_ENABLE_BLAS:BOOL=ON \
+-D BLAS_INCLUDE_DIRS:PATH=/usr/include/ \
+-D BLAS_LIBRARY_DIRS:PATH=/usr/lib/ \
+-D BLAS_LIBRARY_NAMES:STRING="blas" \
+\
+-D TPL_ENABLE_LAPACK:BOOL=ON \
+-D LAPACK_INCLUDE_DIRS:PATH=/usr/include/ \
+-D LAPACK_LIBRARY_DIRS:PATH=/usr/lib/ \
+-D LAPACK_LIBRARY_NAMES:STRING="lapack" \
+\
+-D TPL_ENABLE_HDF5:BOOL=ON \
+-D HDF5_INCLUDE_DIRS:PATH=/usr/include/ \
+-D HDF5_LIBRARY_DIRS:PATH=/usr/lib/ \
+\
+-D TPL_ENABLE_UMFPACK:BOOL=ON \
+-D UMFPACK_INCLUDE_DIRS:PATH=/usr/include/suitesparse/ \
+-D UMFPACK_LIBRARY_DIRS:PATH=/usr/lib/ \
+-D UMFPACK_LIBRARY_NAMES:STRING="umfpack;amd" \
+\
+-D TPL_ENABLE_MPI:BOOL=ON \
+-D MPI_BASE_DIR:PATH=/usr/lib/openmpi/ \
+-D MPI_BIN_DIR:PATH=/usr/bin/ \
+\
+-D TPL_ENABLE_ParMETIS:BOOL=ON \
+-D ParMETIS_LIBRARY_DIRS:PATH=/usr/lib/ \
+\
+-D CMAKE_INSTALL_PREFIX:PATH=../install \
+$EXTRA_ARGS \
+../ 

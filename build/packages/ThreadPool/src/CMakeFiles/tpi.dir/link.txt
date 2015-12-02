@@ -1,0 +1,2 @@
+/usr/bin/ar cr libtpi.a  CMakeFiles/tpi.dir/TPI.c.o CMakeFiles/tpi.dir/TPI_Walltime.c.o
+/usr/bin/ranlib libtpi.a

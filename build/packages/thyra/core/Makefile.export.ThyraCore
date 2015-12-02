@@ -1,0 +1,110 @@
+##############################################################################
+#
+# Make variables for use by Trilinos/ThyraCore clients. 
+#
+# Do not edit: This file was generated automatically by CMake.
+#
+##############################################################################
+
+
+## ---------------------------------------------------------------------------
+## Compilers used by Trilinos/ThyraCore build
+## ---------------------------------------------------------------------------
+
+ThyraCore_CXX_COMPILER=/usr/bin/mpicxx
+
+ThyraCore_C_COMPILER=/usr/bin/mpicc
+
+ThyraCore_FORTRAN_COMPILER=/usr/bin/mpif90
+ThyraCore_Fortran_COMPILER=/usr/bin/mpif90
+
+
+## ---------------------------------------------------------------------------
+## Compiler flags used by Trilinos/ThyraCore build
+## ---------------------------------------------------------------------------
+
+## Set compiler flags, including those determined by build type
+ThyraCore_CXX_FLAGS= -std=c++11 -O3
+ThyraCore_CXX_COMPILER_FLAGS= -std=c++11 -O3
+
+ThyraCore_C_FLAGS= -O3
+ThyraCore_C_COMPILER_FLAGS= -O3
+
+ThyraCore_FORTRAN_FLAGS= -O3
+ThyraCore_Fortran_COMPILER_FLAGS= -O3
+
+## Extra link flags (e.g., specification of fortran libraries)
+ThyraCore_EXTRA_LD_FLAGS=-lpthread
+
+## This is the command-line entry used for setting rpaths. In a build
+## with static libraries it will be empty. 
+ThyraCore_SHARED_LIB_RPATH_COMMAND=
+ThyraCore_BUILD_SHARED_LIBS=OFF
+
+ThyraCore_LINKER=/usr/bin/ld
+ThyraCore_AR=/usr/bin/ar
+
+## ---------------------------------------------------------------------------
+## Set library specifications and paths 
+## ---------------------------------------------------------------------------
+
+## The project version number
+ThyraCore_VERSION=12.4.2
+
+## List of package include dirs
+ThyraCore_INCLUDE_DIRS= -I/home/tomii/simenv/trilinos/build -I/home/tomii/simenv/trilinos/packages/thyra/core/src -I/home/tomii/simenv/trilinos/packages/thyra/core/src/interfaces/operator_vector/fundamental -I/home/tomii/simenv/trilinos/packages/thyra/core/src/interfaces/operator_vector/extended -I/home/tomii/simenv/trilinos/packages/thyra/core/src/support/operator_vector/client_support -I/home/tomii/simenv/trilinos/packages/thyra/core/src/support/operator_vector/adapter_support -I/home/tomii/simenv/trilinos/packages/thyra/core/src/interfaces/operator_solve/fundamental -I/home/tomii/simenv/trilinos/packages/thyra/core/src/interfaces/operator_solve/extended -I/home/tomii/simenv/trilinos/packages/thyra/core/src/support/operator_solve/client_support -I/home/tomii/simenv/trilinos/packages/thyra/core/src/interfaces/nonlinear/model_evaluator/fundamental -I/home/tomii/simenv/trilinos/packages/thyra/core/src/support/nonlinear/model_evaluator/client_support -I/home/tomii/simenv/trilinos/packages/thyra/core/src/interfaces/nonlinear/solvers/fundamental -I/home/tomii/simenv/trilinos/packages/thyra/core/src/support/nonlinear/solvers/client_support -I/home/tomii/simenv/trilinos/build/packages/thyra/core/src -I/home/tomii/simenv/trilinos/packages/thyra/core/example/operator_vector -I/home/tomii/simenv/trilinos/packages/rtop/src -I/home/tomii/simenv/trilinos/packages/rtop/src/interfaces -I/home/tomii/simenv/trilinos/packages/rtop/src/support -I/home/tomii/simenv/trilinos/packages/rtop/src/ops_lib -I/home/tomii/simenv/trilinos/packages/rtop/src/lapack -I/home/tomii/simenv/trilinos/build/packages/rtop/src -I/home/tomii/simenv/trilinos/build/packages/teuchos/kokkoscomm/src -I/home/tomii/simenv/trilinos/packages/teuchos/kokkoscomm/src -I/home/tomii/simenv/trilinos/build/packages/teuchos/kokkoscompat/src -I/home/tomii/simenv/trilinos/packages/teuchos/kokkoscompat/src -I/home/tomii/simenv/trilinos/packages/teuchos/parameterlist/src -I/home/tomii/simenv/trilinos/build/packages/teuchos/core/src -I/home/tomii/simenv/trilinos/packages/teuchos/core/src -I/home/tomii/simenv/trilinos/build/packages/kokkos/core/src -I/home/tomii/simenv/trilinos/packages/kokkos/core/src -I/home/tomii/simenv/trilinos/packages/teuchos/comm/src -I/home/tomii/simenv/trilinos/packages/teuchos/remainder/src -I/home/tomii/simenv/trilinos/build/packages/teuchos/remainder/src -I/home/tomii/simenv/trilinos/packages/teuchos/numerics/src -I/usr/include
+
+## List of package library paths
+ThyraCore_LIBRARY_DIRS= -L/home/tomii/simenv/trilinos/build/packages/thyra/core/src -L/home/tomii/simenv/trilinos/build/packages/rtop/src -L/home/tomii/simenv/trilinos/build/packages/teuchos/kokkoscomm/src -L/home/tomii/simenv/trilinos/build/packages/teuchos/kokkoscompat/src -L/home/tomii/simenv/trilinos/build/packages/teuchos/parameterlist/src -L/home/tomii/simenv/trilinos/build/packages/teuchos/core/src -L/home/tomii/simenv/trilinos/build/packages/kokkos/core/src -L/home/tomii/simenv/trilinos/build/packages/teuchos/comm/src -L/home/tomii/simenv/trilinos/build/packages/teuchos/remainder/src -L/home/tomii/simenv/trilinos/build/packages/teuchos/numerics/src
+
+## List of package libraries
+ThyraCore_LIBRARIES= -lthyracore -lrtop -lteuchoskokkoscomm -lteuchoskokkoscompat -lteuchosremainder -lteuchosnumerics -lteuchoscomm -lteuchosparameterlist -lteuchoscore -lkokkoscore
+
+## Specification of directories for TPL headers
+ThyraCore_TPL_INCLUDE_DIRS= -I/usr/include -I/usr/include
+
+## Specification of directories for TPL libraries
+ThyraCore_TPL_LIBRARY_DIRS=
+
+## List of required TPLs
+ThyraCore_TPL_LIBRARIES= /usr/lib/liblapack.so /usr/lib/libblas.so
+
+## ---------------------------------------------------------------------------
+## MPI specific variables
+##   These variables are provided to make it easier to get the mpi libraries
+##   and includes on systems that do not use the mpi wrappers for compiling
+## ---------------------------------------------------------------------------
+
+ThyraCore_MPI_LIBRARIES=
+ThyraCore_MPI_LIBRARY_DIRS=
+ThyraCore_MPI_INCLUDE_DIRS=
+ThyraCore_MPI_EXEC=/usr/bin/mpiexec
+ThyraCore_MPI_EXEC_MAX_NUMPROCS=4
+ThyraCore_MPI_EXEC_NUMPROCS_FLAG=-np
+
+## ---------------------------------------------------------------------------
+## Set useful general variables 
+## ---------------------------------------------------------------------------
+
+## The packages enabled for this project
+ThyraCore_PACKAGE_LIST= ThyraCore RTOp Teuchos TeuchosKokkosComm TeuchosKokkosCompat TeuchosRemainder TeuchosNumerics TeuchosComm TeuchosParameterList TeuchosCore KokkosCore
+
+## The TPLs enabled for this project
+ThyraCore_TPL_LIST= LAPACK BLAS MPI Pthread
+
+## ---------------------------------------------------------------------------
+## Deprecated variables
+##   These variables from the autotools version of Makefile.export.<package>
+##   have been deprecated. To help avoid confusion with projects that haven't
+##   migrated to the new version of the variable names when the don't compile.
+##   This will put an obvious statement in the link line that these Trilinos
+##   Makefile variables are no longer used. Without this there would be a link
+##   error with no obvious reason as to why other than the lack of Trilinos libs
+##   which would be confusing since the link line in the Makefile would have 
+##   stated to put them on the line.
+## ---------------------------------------------------------------------------
+
+THYRACORE_LIBS="The Trilinos variable THYRACORE_LIBS has been deprecated. Please see the documentation on the Makefile.export capability for instructions on how to transition to the new system."
+THYRACORE_INCLUDES="The Trilinos variable THYRACORE_INCLUDES has been deprecated. Please see the documentation on the Makefile.export capability for instructions on how to transition to the new system."
+
+

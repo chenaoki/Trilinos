@@ -1,0 +1,19 @@
+# Target labels
+ TeuchosRemainderLibs
+ TeuchosLibs
+# Source files and their labels
+/home/tomii/simenv/trilinos/build/packages/teuchos/remainder/src/TeuchosRemainder_config.h
+/home/tomii/simenv/trilinos/packages/teuchos/remainder/src/Teuchos_arrayArg.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/remainder/src/Teuchos_MPITraits.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/remainder/src/Teuchos_FILEstream.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/remainder/src/Teuchos_FloatingPointTrap.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/remainder/src/Teuchos_Handle.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/remainder/src/Trilinos_Details_LinearSolver.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/remainder/src/Teuchos_Libxml2HandlerAdapter.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/remainder/src/Teuchos_Handleable.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/remainder/src/Trilinos_Details_LinearSolverFactory.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/remainder/src/Teuchos_StringToIntMap.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/remainder/src/Teuchos_Libxml2HandlerAdapter.cpp
+/home/tomii/simenv/trilinos/packages/teuchos/remainder/src/Teuchos_FloatingPointTrap.cpp
+/home/tomii/simenv/trilinos/packages/teuchos/remainder/src/Trilinos_Details_LinearSolverFactory.cpp
+/home/tomii/simenv/trilinos/packages/teuchos/remainder/src/Teuchos_StringToIntMap.cpp

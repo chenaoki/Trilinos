@@ -1,0 +1,2 @@
+/usr/bin/ar cr libtpetraclassiclinalg.a  CMakeFiles/tpetraclassiclinalg.dir/Kokkos_LinAlgVersion.cpp.o
+/usr/bin/ranlib libtpetraclassiclinalg.a

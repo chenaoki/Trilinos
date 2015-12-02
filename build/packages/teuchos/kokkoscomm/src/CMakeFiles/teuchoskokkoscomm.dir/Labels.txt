@@ -1,0 +1,8 @@
+# Target labels
+ TeuchosKokkosCommLibs
+ TeuchosLibs
+# Source files and their labels
+/home/tomii/simenv/trilinos/packages/teuchos/kokkoscomm/src/Kokkos_TeuchosCommAdapters.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/kokkoscomm/src/Kokkos_MpiTypeTraits.hpp
+/home/tomii/simenv/trilinos/build/packages/teuchos/kokkoscomm/src/TeuchosKokkosComm_config.h
+/home/tomii/simenv/trilinos/packages/teuchos/kokkoscomm/src/KokkosMpiComm_dummy.cpp

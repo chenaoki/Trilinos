@@ -1,0 +1,1084 @@
+The system is: Linux - 3.13.0-68-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/mpicc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/tomii/simenv/trilinos/build/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1133119553/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1133119553.dir/build.make CMakeFiles/cmTryCompileExec1133119553.dir/build
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1133119553.dir/testCCompiler.c.o
+/usr/bin/mpicc    -o CMakeFiles/cmTryCompileExec1133119553.dir/testCCompiler.c.o   -c /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec1133119553
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1133119553.dir/link.txt --verbose=1
+/usr/bin/mpicc       CMakeFiles/cmTryCompileExec1133119553.dir/testCCompiler.c.o  -o cmTryCompileExec1133119553 -rdynamic 
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec216751102/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec216751102.dir/build.make CMakeFiles/cmTryCompileExec216751102.dir/build
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec216751102.dir/CMakeCCompilerABI.c.o
+/usr/bin/mpicc    -o CMakeFiles/cmTryCompileExec216751102.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec216751102
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec216751102.dir/link.txt --verbose=1
+/usr/bin/mpicc     -v CMakeFiles/cmTryCompileExec216751102.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec216751102 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec216751102' '-rdynamic' '-I' '/usr/lib/openmpi/include' '-I' '/usr/lib/openmpi/include/openmpi' '-pthread' '-L/usr//lib' '-L/usr/lib/openmpi/lib' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec216751102 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr//lib -L/usr/lib/openmpi/lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec216751102.dir/CMakeCCompilerABI.c.o -lmpi -ldl -lhwloc -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec216751102/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec216751102.dir/build.make CMakeFiles/cmTryCompileExec216751102.dir/build]
+  ignore line: [make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' に入ります]
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec216751102.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/mpicc    -o CMakeFiles/cmTryCompileExec216751102.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec216751102]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec216751102.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/mpicc     -v CMakeFiles/cmTryCompileExec216751102.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec216751102 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec216751102' '-rdynamic' '-I' '/usr/lib/openmpi/include' '-I' '/usr/lib/openmpi/include/openmpi' '-pthread' '-L/usr//lib' '-L/usr/lib/openmpi/lib' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec216751102 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr//lib -L/usr/lib/openmpi/lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec216751102.dir/CMakeCCompilerABI.c.o -lmpi -ldl -lhwloc -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec216751102] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr//lib] ==> dir [/usr//lib]
+    arg [-L/usr/lib/openmpi/lib] ==> dir [/usr/lib/openmpi/lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec216751102.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lmpi] ==> lib [mpi]
+    arg [-ldl] ==> lib [dl]
+    arg [-lhwloc] ==> lib [hwloc]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr//lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/openmpi/lib] ==> [/usr/lib/openmpi/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [mpi;dl;hwloc;pthread;c]
+  implicit dirs: [/usr/lib;/usr/lib/openmpi/lib;/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/mpicxx 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/tomii/simenv/trilinos/build/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2570301771/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2570301771.dir/build.make CMakeFiles/cmTryCompileExec2570301771.dir/build
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2570301771.dir/testCXXCompiler.cxx.o
+/usr/bin/mpicxx     -o CMakeFiles/cmTryCompileExec2570301771.dir/testCXXCompiler.cxx.o -c /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec2570301771
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2570301771.dir/link.txt --verbose=1
+/usr/bin/mpicxx        CMakeFiles/cmTryCompileExec2570301771.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec2570301771 -rdynamic 
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1753974600/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1753974600.dir/build.make CMakeFiles/cmTryCompileExec1753974600.dir/build
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1753974600.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/mpicxx     -o CMakeFiles/cmTryCompileExec1753974600.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec1753974600
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1753974600.dir/link.txt --verbose=1
+/usr/bin/mpicxx      -v CMakeFiles/cmTryCompileExec1753974600.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1753974600 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/g++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1753974600' '-rdynamic' '-I' '/usr/lib/openmpi/include' '-I' '/usr/lib/openmpi/include/openmpi' '-pthread' '-L/usr//lib' '-L/usr/lib/openmpi/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1753974600 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr//lib -L/usr/lib/openmpi/lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec1753974600.dir/CMakeCXXCompilerABI.cpp.o -lmpi_cxx -lmpi -ldl -lhwloc -lstdc++ -lm -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec1753974600/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1753974600.dir/build.make CMakeFiles/cmTryCompileExec1753974600.dir/build]
+  ignore line: [make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' に入ります]
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec1753974600.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/mpicxx     -o CMakeFiles/cmTryCompileExec1753974600.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec1753974600]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1753974600.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/mpicxx      -v CMakeFiles/cmTryCompileExec1753974600.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1753974600 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1753974600' '-rdynamic' '-I' '/usr/lib/openmpi/include' '-I' '/usr/lib/openmpi/include/openmpi' '-pthread' '-L/usr//lib' '-L/usr/lib/openmpi/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1753974600 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr//lib -L/usr/lib/openmpi/lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec1753974600.dir/CMakeCXXCompilerABI.cpp.o -lmpi_cxx -lmpi -ldl -lhwloc -lstdc++ -lm -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1753974600] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr//lib] ==> dir [/usr//lib]
+    arg [-L/usr/lib/openmpi/lib] ==> dir [/usr/lib/openmpi/lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec1753974600.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lmpi_cxx] ==> lib [mpi_cxx]
+    arg [-lmpi] ==> lib [mpi]
+    arg [-ldl] ==> lib [dl]
+    arg [-lhwloc] ==> lib [hwloc]
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr//lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/openmpi/lib] ==> [/usr/lib/openmpi/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [mpi_cxx;mpi;dl;hwloc;stdc++;m;pthread;c]
+  implicit dirs: [/usr/lib;/usr/lib/openmpi/lib;/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler: /usr/bin/mpif90 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
+
+The Fortran compiler identification is GNU, found in "/home/tomii/simenv/trilinos/build/CMakeFiles/2.8.12.2/CompilerIdFortran/a.out"
+
+Determining if the Fortran compiler works passed with the following output:
+Change Dir: /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec938982026/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec938982026.dir/build.make CMakeFiles/cmTryCompileExec938982026.dir/build
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building Fortran object CMakeFiles/cmTryCompileExec938982026.dir/testFortranCompiler.f.o
+/usr/bin/mpif90    -c /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTryCompileExec938982026.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTryCompileExec938982026
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec938982026.dir/link.txt --verbose=1
+/usr/bin/mpif90       CMakeFiles/cmTryCompileExec938982026.dir/testFortranCompiler.f.o  -o cmTryCompileExec938982026 -rdynamic 
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Detecting Fortran compiler ABI info compiled with the following output:
+Change Dir: /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1693762244/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1693762244.dir/build.make CMakeFiles/cmTryCompileExec1693762244.dir/build
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building Fortran object CMakeFiles/cmTryCompileExec1693762244.dir/CMakeFortranCompilerABI.F.o
+/usr/bin/mpif90    -c /usr/share/cmake-2.8/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTryCompileExec1693762244.dir/CMakeFortranCompilerABI.F.o
+Linking Fortran executable cmTryCompileExec1693762244
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1693762244.dir/link.txt --verbose=1
+/usr/bin/mpif90   -v   CMakeFiles/cmTryCompileExec1693762244.dir/CMakeFortranCompilerABI.F.o  -o cmTryCompileExec1693762244 -rdynamic  
+Driving: /usr/bin/gfortran -v CMakeFiles/cmTryCompileExec1693762244.dir/CMakeFortranCompilerABI.F.o -o cmTryCompileExec1693762244 -rdynamic -I/usr/lib/openmpi/include -pthread -I/usr/lib/openmpi/lib -L/usr//lib -L/usr/lib/openmpi/lib -lmpi_f90 -lmpi_f77 -lmpi -ldl -lhwloc -l gfortran -l m -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gfortran
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04) 
+Reading specs from /usr/lib/gcc/x86_64-linux-gnu/4.8/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1693762244' '-rdynamic' '-I' '/usr/lib/openmpi/include' '-pthread' '-I' '/usr/lib/openmpi/lib' '-L/usr//lib' '-L/usr/lib/openmpi/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1693762244' '-rdynamic' '-I' '/usr/lib/openmpi/include' '-pthread' '-I' '/usr/lib/openmpi/lib' '-L/usr//lib' '-L/usr/lib/openmpi/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1693762244 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr//lib -L/usr/lib/openmpi/lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec1693762244.dir/CMakeFortranCompilerABI.F.o -lmpi_f90 -lmpi_f77 -lmpi -ldl -lhwloc -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Parsed Fortran implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec1693762244/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1693762244.dir/build.make CMakeFiles/cmTryCompileExec1693762244.dir/build]
+  ignore line: [make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' に入ります]
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building Fortran object CMakeFiles/cmTryCompileExec1693762244.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [/usr/bin/mpif90    -c /usr/share/cmake-2.8/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTryCompileExec1693762244.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [Linking Fortran executable cmTryCompileExec1693762244]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1693762244.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/mpif90   -v   CMakeFiles/cmTryCompileExec1693762244.dir/CMakeFortranCompilerABI.F.o  -o cmTryCompileExec1693762244 -rdynamic  ]
+  ignore line: [Driving: /usr/bin/gfortran -v CMakeFiles/cmTryCompileExec1693762244.dir/CMakeFortranCompilerABI.F.o -o cmTryCompileExec1693762244 -rdynamic -I/usr/lib/openmpi/include -pthread -I/usr/lib/openmpi/lib -L/usr//lib -L/usr/lib/openmpi/lib -lmpi_f90 -lmpi_f77 -lmpi -ldl -lhwloc -l gfortran -l m -shared-libgcc]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gfortran]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04) ]
+  ignore line: [Reading specs from /usr/lib/gcc/x86_64-linux-gnu/4.8/libgfortran.spec]
+  ignore line: [rename spec lib to liborig]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1693762244' '-rdynamic' '-I' '/usr/lib/openmpi/include' '-pthread' '-I' '/usr/lib/openmpi/lib' '-L/usr//lib' '-L/usr/lib/openmpi/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1693762244' '-rdynamic' '-I' '/usr/lib/openmpi/include' '-pthread' '-I' '/usr/lib/openmpi/lib' '-L/usr//lib' '-L/usr/lib/openmpi/lib' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1693762244 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr//lib -L/usr/lib/openmpi/lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec1693762244.dir/CMakeFortranCompilerABI.F.o -lmpi_f90 -lmpi_f77 -lmpi -ldl -lhwloc -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1693762244] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr//lib] ==> dir [/usr//lib]
+    arg [-L/usr/lib/openmpi/lib] ==> dir [/usr/lib/openmpi/lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec1693762244.dir/CMakeFortranCompilerABI.F.o] ==> ignore
+    arg [-lmpi_f90] ==> lib [mpi_f90]
+    arg [-lmpi_f77] ==> lib [mpi_f77]
+    arg [-lmpi] ==> lib [mpi]
+    arg [-ldl] ==> lib [dl]
+    arg [-lhwloc] ==> lib [hwloc]
+    arg [-lgfortran] ==> lib [gfortran]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lquadmath] ==> lib [quadmath]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr//lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/openmpi/lib] ==> [/usr/lib/openmpi/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [mpi_f90;mpi_f77;mpi;dl;hwloc;gfortran;m;quadmath;m;pthread;c]
+  implicit dirs: [/usr/lib;/usr/lib/openmpi/lib;/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the Fortran compiler supports Fortran 90 passed with the following output:
+Change Dir: /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec591735748/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec591735748.dir/build.make CMakeFiles/cmTryCompileExec591735748.dir/build
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building Fortran object CMakeFiles/cmTryCompileExec591735748.dir/testFortranCompilerF90.f90.o
+/usr/bin/mpif90    -c /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/testFortranCompilerF90.f90 -o CMakeFiles/cmTryCompileExec591735748.dir/testFortranCompilerF90.f90.o
+Linking Fortran executable cmTryCompileExec591735748
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec591735748.dir/link.txt --verbose=1
+/usr/bin/mpif90       CMakeFiles/cmTryCompileExec591735748.dir/testFortranCompilerF90.f90.o  -o cmTryCompileExec591735748 -rdynamic 
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3140264962/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3140264962.dir/build.make CMakeFiles/cmTryCompileExec3140264962.dir/build
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3140264962.dir/CheckIncludeFile.cxx.o
+/usr/bin/mpicxx     -o CMakeFiles/cmTryCompileExec3140264962.dir/CheckIncludeFile.cxx.o -c /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec3140264962
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3140264962.dir/link.txt --verbose=1
+/usr/bin/mpicxx        CMakeFiles/cmTryCompileExec3140264962.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec3140264962 -rdynamic 
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the include file time.h exists passed with the following output:
+Change Dir: /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2533312793/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2533312793.dir/build.make CMakeFiles/cmTryCompileExec2533312793.dir/build
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2533312793.dir/CheckIncludeFile.cxx.o
+/usr/bin/mpicxx     -o CMakeFiles/cmTryCompileExec2533312793.dir/CheckIncludeFile.cxx.o -c /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec2533312793
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2533312793.dir/link.txt --verbose=1
+/usr/bin/mpicxx        CMakeFiles/cmTryCompileExec2533312793.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec2533312793 -rdynamic 
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1393238024/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1393238024.dir/build.make CMakeFiles/cmTryCompileExec1393238024.dir/build
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1393238024.dir/CheckIncludeFile.cxx.o
+/usr/bin/mpicxx     -o CMakeFiles/cmTryCompileExec1393238024.dir/CheckIncludeFile.cxx.o -c /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec1393238024
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1393238024.dir/link.txt --verbose=1
+/usr/bin/mpicxx        CMakeFiles/cmTryCompileExec1393238024.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec1393238024 -rdynamic 
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3067514960/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3067514960.dir/build.make CMakeFiles/cmTryCompileExec3067514960.dir/build
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3067514960.dir/CheckIncludeFile.cxx.o
+/usr/bin/mpicxx     -o CMakeFiles/cmTryCompileExec3067514960.dir/CheckIncludeFile.cxx.o -c /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec3067514960
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3067514960.dir/link.txt --verbose=1
+/usr/bin/mpicxx        CMakeFiles/cmTryCompileExec3067514960.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec3067514960 -rdynamic 
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Verifying Fortran/CXX Compiler Compatibility passed with the following output:
+Change Dir: /home/tomii/simenv/trilinos/build/CMakeFiles/FortranCInterface/VerifyCXX
+
+Run Build Command:/usr/bin/make
+/usr/bin/cmake -H/usr/share/cmake-2.8/Modules/FortranCInterface/Verify -B/home/tomii/simenv/trilinos/build/CMakeFiles/FortranCInterface/VerifyCXX --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/tomii/simenv/trilinos/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles /home/tomii/simenv/trilinos/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/FortranCInterface/VerifyCXX' に入ります
+/usr/bin/make -f CMakeFiles/VerifyFortran.dir/build.make CMakeFiles/VerifyFortran.dir/depend
+make[2]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/FortranCInterface/VerifyCXX' に入ります
+cd /home/tomii/simenv/trilinos/build/CMakeFiles/FortranCInterface/VerifyCXX && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/share/cmake-2.8/Modules/FortranCInterface/Verify /usr/share/cmake-2.8/Modules/FortranCInterface/Verify /home/tomii/simenv/trilinos/build/CMakeFiles/FortranCInterface/VerifyCXX /home/tomii/simenv/trilinos/build/CMakeFiles/FortranCInterface/VerifyCXX /home/tomii/simenv/trilinos/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/VerifyFortran.dir/DependInfo.cmake
+Scanning dependencies of target VerifyFortran
+make[2]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/FortranCInterface/VerifyCXX' から出ます
+/usr/bin/make -f CMakeFiles/VerifyFortran.dir/build.make CMakeFiles/VerifyFortran.dir/requires
+make[2]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/FortranCInterface/VerifyCXX' に入ります
+make[2]: `CMakeFiles/VerifyFortran.dir/requires' に対して行うべき事はありません.
+make[2]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/FortranCInterface/VerifyCXX' から出ます
+/usr/bin/make -f CMakeFiles/VerifyFortran.dir/build.make CMakeFiles/VerifyFortran.dir/build
+make[2]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/FortranCInterface/VerifyCXX' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tomii/simenv/trilinos/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles 1
+[ 25%] Building Fortran object CMakeFiles/VerifyFortran.dir/VerifyFortran.f.o
+/usr/bin/mpif90  -DVERIFY_CXX -O3 -I/home/tomii/simenv/trilinos/build/CMakeFiles/FortranCInterface/VerifyCXX    -c /usr/share/cmake-2.8/Modules/FortranCInterface/Verify/VerifyFortran.f -o CMakeFiles/VerifyFortran.dir/VerifyFortran.f.o
+Linking Fortran static library libVerifyFortran.a
+/usr/bin/cmake -P CMakeFiles/VerifyFortran.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/VerifyFortran.dir/link.txt --verbose=1
+/usr/bin/ar cr libVerifyFortran.a  CMakeFiles/VerifyFortran.dir/VerifyFortran.f.o
+/usr/bin/ranlib libVerifyFortran.a
+make[2]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/FortranCInterface/VerifyCXX' から出ます
+/usr/bin/cmake -E cmake_progress_report /home/tomii/simenv/trilinos/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles  1
+[ 25%] Built target VerifyFortran
+/usr/bin/make -f CMakeFiles/VerifyFortranC.dir/build.make CMakeFiles/VerifyFortranC.dir/depend
+make[2]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/FortranCInterface/VerifyCXX' に入ります
+cd /home/tomii/simenv/trilinos/build/CMakeFiles/FortranCInterface/VerifyCXX && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/share/cmake-2.8/Modules/FortranCInterface/Verify /usr/share/cmake-2.8/Modules/FortranCInterface/Verify /home/tomii/simenv/trilinos/build/CMakeFiles/FortranCInterface/VerifyCXX /home/tomii/simenv/trilinos/build/CMakeFiles/FortranCInterface/VerifyCXX /home/tomii/simenv/trilinos/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles/VerifyFortranC.dir/DependInfo.cmake
+Scanning dependencies of target VerifyFortranC
+make[2]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/FortranCInterface/VerifyCXX' から出ます
+/usr/bin/make -f CMakeFiles/VerifyFortranC.dir/build.make CMakeFiles/VerifyFortranC.dir/build
+make[2]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/FortranCInterface/VerifyCXX' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tomii/simenv/trilinos/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles 2
+[ 50%] Building C object CMakeFiles/VerifyFortranC.dir/main.c.o
+/usr/bin/mpicc  -DVERIFY_CXX -O3 -I/home/tomii/simenv/trilinos/build/CMakeFiles/FortranCInterface/VerifyCXX    -o CMakeFiles/VerifyFortranC.dir/main.c.o   -c /usr/share/cmake-2.8/Modules/FortranCInterface/Verify/main.c
+/usr/bin/cmake -E cmake_progress_report /home/tomii/simenv/trilinos/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles 3
+[ 75%] Building C object CMakeFiles/VerifyFortranC.dir/VerifyC.c.o
+/usr/bin/mpicc  -DVERIFY_CXX -O3 -I/home/tomii/simenv/trilinos/build/CMakeFiles/FortranCInterface/VerifyCXX    -o CMakeFiles/VerifyFortranC.dir/VerifyC.c.o   -c /usr/share/cmake-2.8/Modules/FortranCInterface/Verify/VerifyC.c
+/usr/bin/cmake -E cmake_progress_report /home/tomii/simenv/trilinos/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles 4
+[100%] Building CXX object CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.o
+/usr/bin/mpicxx   -DVERIFY_CXX -O3 -I/home/tomii/simenv/trilinos/build/CMakeFiles/FortranCInterface/VerifyCXX    -o CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.o -c /usr/share/cmake-2.8/Modules/FortranCInterface/Verify/VerifyCXX.cxx
+Linking CXX executable VerifyFortranC
+/usr/bin/cmake -E cmake_link_script CMakeFiles/VerifyFortranC.dir/link.txt --verbose=1
+/usr/bin/mpicxx   -O3    CMakeFiles/VerifyFortranC.dir/main.c.o CMakeFiles/VerifyFortranC.dir/VerifyC.c.o CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.o  -o VerifyFortranC -rdynamic libVerifyFortran.a -lmpi_f90 -lmpi_f77 -lgfortran -lquadmath 
+make[2]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/FortranCInterface/VerifyCXX' から出ます
+/usr/bin/cmake -E cmake_progress_report /home/tomii/simenv/trilinos/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles  2 3 4
+[100%] Built target VerifyFortranC
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/FortranCInterface/VerifyCXX' から出ます
+/usr/bin/cmake -E cmake_progress_start /home/tomii/simenv/trilinos/build/CMakeFiles/FortranCInterface/VerifyCXX/CMakeFiles 0
+
+
+Performing C++ SOURCE FILE Test CXX11_FLAGS_COMPILE_RESULT_0 succeded with the following output:
+Change Dir: /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1586581198/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1586581198.dir/build.make CMakeFiles/cmTryCompileExec1586581198.dir/build
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1586581198.dir/src.cxx.o
+/usr/bin/mpicxx    -DCXX11_FLAGS_COMPILE_RESULT_0  -std=c++11   -o CMakeFiles/cmTryCompileExec1586581198.dir/src.cxx.o -c /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1586581198
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1586581198.dir/link.txt --verbose=1
+/usr/bin/mpicxx    -DCXX11_FLAGS_COMPILE_RESULT_0  -std=c++11    CMakeFiles/cmTryCompileExec1586581198.dir/src.cxx.o  -o cmTryCompileExec1586581198 -rdynamic 
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' から出ます
+
+Source file was:
+
+        #include <vector>
+        #include <algorithm>
+        int main() {
+          // check >> closing brackets
+          std::vector<std::vector<float>> vecvecfloat(1);
+          vecvecfloat[0].resize(1);
+          vecvecfloat[0][0] = 0.0f;
+          std::vector<int> vec(10);
+          auto b        = vec.begin();
+          decltype(b) e = vec.end();
+          std::fill(b,e,1);
+          // two examples, taken from the wikipedia article on C++0x :)
+          std::vector<int> some_list;
+          int total = 0;
+          int value = 5;
+          std::for_each(some_list.begin(), some_list.end(), [&total](int x) {
+              total += x;
+              });
+          std::for_each(some_list.begin(), some_list.end(), [&, value](int x) {
+              total += x * value;
+              });
+          return 0;
+        }
+        
+Performing C++ SOURCE FILE Test CXX11_CONSECUTIVE_RIGHT_ANGLE_BRACKETS succeded with the following output:
+Change Dir: /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3660952921/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3660952921.dir/build.make CMakeFiles/cmTryCompileExec3660952921.dir/build
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3660952921.dir/src.cxx.o
+/usr/bin/mpicxx    -DCXX11_CONSECUTIVE_RIGHT_ANGLE_BRACKETS  -std=c++11   -o CMakeFiles/cmTryCompileExec3660952921.dir/src.cxx.o -c /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3660952921
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3660952921.dir/link.txt --verbose=1
+/usr/bin/mpicxx    -DCXX11_CONSECUTIVE_RIGHT_ANGLE_BRACKETS  -std=c++11    CMakeFiles/cmTryCompileExec3660952921.dir/src.cxx.o  -o cmTryCompileExec3660952921 -rdynamic 
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' から出ます
+
+Source file was:
+
+#include <vector>
+int main() {
+  // check >> closing brackets
+  std::vector<std::vector<float>> vecvecfloat(1);
+  vecvecfloat[0].resize(1);
+  vecvecfloat[0][0] = 0.0f;
+  return 0;
+}
+  
+Performing C++ SOURCE FILE Test CXX11_AUTOTYPEDVARIABLES succeded with the following output:
+Change Dir: /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3399458702/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3399458702.dir/build.make CMakeFiles/cmTryCompileExec3399458702.dir/build
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3399458702.dir/src.cxx.o
+/usr/bin/mpicxx    -DCXX11_AUTOTYPEDVARIABLES  -std=c++11   -o CMakeFiles/cmTryCompileExec3399458702.dir/src.cxx.o -c /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3399458702
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3399458702.dir/link.txt --verbose=1
+/usr/bin/mpicxx    -DCXX11_AUTOTYPEDVARIABLES  -std=c++11    CMakeFiles/cmTryCompileExec3399458702.dir/src.cxx.o  -o cmTryCompileExec3399458702 -rdynamic 
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' から出ます
+
+Source file was:
+
+#include <vector>
+int main() {
+  std::vector<int> vec(10);
+  auto b        = vec.begin();
+  decltype(b) e = vec.end();
+  std::fill(b,e,1);
+  return 0;
+}
+  
+Performing C++ SOURCE FILE Test CXX11_LAMBDAS succeded with the following output:
+Change Dir: /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1747868850/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1747868850.dir/build.make CMakeFiles/cmTryCompileExec1747868850.dir/build
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1747868850.dir/src.cxx.o
+/usr/bin/mpicxx    -DCXX11_LAMBDAS  -std=c++11   -o CMakeFiles/cmTryCompileExec1747868850.dir/src.cxx.o -c /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1747868850
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1747868850.dir/link.txt --verbose=1
+/usr/bin/mpicxx    -DCXX11_LAMBDAS  -std=c++11    CMakeFiles/cmTryCompileExec1747868850.dir/src.cxx.o  -o cmTryCompileExec1747868850 -rdynamic 
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' から出ます
+
+Source file was:
+
+#include <vector>
+#include <algorithm>
+int main() {
+  // two examples, taken from the wikipedia article on C++0x :)
+  std::vector<int> some_list;
+  int total = 0;
+  int value = 5;
+  std::for_each(some_list.begin(), some_list.end(), [&total](int x) {
+      total += x;
+      });
+  std::for_each(some_list.begin(), some_list.end(), [&, value](int x) {
+      total += x * value;
+      });
+  //
+  return 0;
+}
+  
+Performing C SOURCE FILE Test MATH_LIBRARY_IS_SUPPLIED succeded with the following output:
+Change Dir: /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4005856956/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4005856956.dir/build.make CMakeFiles/cmTryCompileExec4005856956.dir/build
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4005856956.dir/src.c.o
+/usr/bin/mpicc   -DMATH_LIBRARY_IS_SUPPLIED   -o CMakeFiles/cmTryCompileExec4005856956.dir/src.c.o   -c /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec4005856956
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4005856956.dir/link.txt --verbose=1
+/usr/bin/mpicc   -DMATH_LIBRARY_IS_SUPPLIED    CMakeFiles/cmTryCompileExec4005856956.dir/src.c.o  -o cmTryCompileExec4005856956 -rdynamic -lpthread 
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' から出ます
+
+Source file was:
+
+#include <math.h>
+int main()
+{
+  double val1 = sqrt(1.0);
+  double val2 = log10(2.0);
+  double val3 = log(2.0);
+  return 0;
+}
+    
+Performing C++ SOURCE FILE Test FINITE_VALUE_HAVE_GLOBAL_ISNAN succeded with the following output:
+Change Dir: /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3326301277/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3326301277.dir/build.make CMakeFiles/cmTryCompileExec3326301277.dir/build
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3326301277.dir/src.cxx.o
+/usr/bin/mpicxx    -std=c++11 -DFINITE_VALUE_HAVE_GLOBAL_ISNAN   -o CMakeFiles/cmTryCompileExec3326301277.dir/src.cxx.o -c /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3326301277
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3326301277.dir/link.txt --verbose=1
+/usr/bin/mpicxx    -std=c++11 -DFINITE_VALUE_HAVE_GLOBAL_ISNAN    CMakeFiles/cmTryCompileExec3326301277.dir/src.cxx.o  -o cmTryCompileExec3326301277 -rdynamic 
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' から出ます
+
+Source file was:
+
+#include <cmath>
+int main()
+{
+  double x = 1.0;
+  isnan(x);
+  return 0;
+}
+  
+Performing C++ SOURCE FILE Test FINITE_VALUE_HAVE_STD_ISNAN succeded with the following output:
+Change Dir: /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2760680373/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2760680373.dir/build.make CMakeFiles/cmTryCompileExec2760680373.dir/build
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2760680373.dir/src.cxx.o
+/usr/bin/mpicxx    -std=c++11 -DFINITE_VALUE_HAVE_STD_ISNAN   -o CMakeFiles/cmTryCompileExec2760680373.dir/src.cxx.o -c /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2760680373
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2760680373.dir/link.txt --verbose=1
+/usr/bin/mpicxx    -std=c++11 -DFINITE_VALUE_HAVE_STD_ISNAN    CMakeFiles/cmTryCompileExec2760680373.dir/src.cxx.o  -o cmTryCompileExec2760680373 -rdynamic 
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' から出ます
+
+Source file was:
+
+#include <cmath>
+int main()
+{
+  double x = 1.0;
+  std::isnan(x);
+  return 0;
+}
+  
+Performing C++ SOURCE FILE Test FINITE_VALUE_HAVE_GLOBAL_ISINF succeded with the following output:
+Change Dir: /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4068045437/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4068045437.dir/build.make CMakeFiles/cmTryCompileExec4068045437.dir/build
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4068045437.dir/src.cxx.o
+/usr/bin/mpicxx    -std=c++11 -DFINITE_VALUE_HAVE_GLOBAL_ISINF   -o CMakeFiles/cmTryCompileExec4068045437.dir/src.cxx.o -c /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec4068045437
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4068045437.dir/link.txt --verbose=1
+/usr/bin/mpicxx    -std=c++11 -DFINITE_VALUE_HAVE_GLOBAL_ISINF    CMakeFiles/cmTryCompileExec4068045437.dir/src.cxx.o  -o cmTryCompileExec4068045437 -rdynamic 
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' から出ます
+
+Source file was:
+
+#include <cmath>
+int main()
+{
+  double x = 1.0;
+  isinf(x);
+  return 0;
+}
+  
+Performing C++ SOURCE FILE Test FINITE_VALUE_HAVE_STD_ISINF succeded with the following output:
+Change Dir: /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2293151249/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2293151249.dir/build.make CMakeFiles/cmTryCompileExec2293151249.dir/build
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2293151249.dir/src.cxx.o
+/usr/bin/mpicxx    -std=c++11 -DFINITE_VALUE_HAVE_STD_ISINF   -o CMakeFiles/cmTryCompileExec2293151249.dir/src.cxx.o -c /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2293151249
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2293151249.dir/link.txt --verbose=1
+/usr/bin/mpicxx    -std=c++11 -DFINITE_VALUE_HAVE_STD_ISINF    CMakeFiles/cmTryCompileExec2293151249.dir/src.cxx.o  -o cmTryCompileExec2293151249 -rdynamic 
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' から出ます
+
+Source file was:
+
+#include <cmath>
+int main()
+{
+  double x = 1.0;
+  std::isinf(x);
+  return 0;
+}
+  
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2814684419/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2814684419.dir/build.make CMakeFiles/cmTryCompileExec2814684419.dir/build
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2814684419.dir/CheckIncludeFiles.c.o
+/usr/bin/mpicc    -o CMakeFiles/cmTryCompileExec2814684419.dir/CheckIncludeFiles.c.o   -c /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2814684419
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2814684419.dir/link.txt --verbose=1
+/usr/bin/mpicc       CMakeFiles/cmTryCompileExec2814684419.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2814684419 -rdynamic 
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1003007839/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1003007839.dir/build.make CMakeFiles/cmTryCompileExec1003007839.dir/build
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1003007839.dir/CheckSymbolExists.c.o
+/usr/bin/mpicc    -o CMakeFiles/cmTryCompileExec1003007839.dir/CheckSymbolExists.c.o   -c /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1003007839
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1003007839.dir/link.txt --verbose=1
+/usr/bin/mpicc       CMakeFiles/cmTryCompileExec1003007839.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1003007839 -rdynamic 
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' から出ます
+
+File /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test HAVE_GCC_ABI_DEMANGLE succeded with the following output:
+Change Dir: /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2515238436/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2515238436.dir/build.make CMakeFiles/cmTryCompileExec2515238436.dir/build
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2515238436.dir/src.cxx.o
+/usr/bin/mpicxx    -std=c++11 -DHAVE_GCC_ABI_DEMANGLE   -o CMakeFiles/cmTryCompileExec2515238436.dir/src.cxx.o -c /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2515238436
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2515238436.dir/link.txt --verbose=1
+/usr/bin/mpicxx    -std=c++11 -DHAVE_GCC_ABI_DEMANGLE    CMakeFiles/cmTryCompileExec2515238436.dir/src.cxx.o  -o cmTryCompileExec2515238436 -rdynamic 
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' から出ます
+
+Return value: 1
+Source file was:
+
+#include <cxxabi.h>
+#include <string>
+#include <cstdlib>
+namespace MyNamespace {
+  class MyClass {};
+}
+
+int main()
+{
+  const std::string
+    mangledName = typeid(MyNamespace::MyClass).name();
+  int status;
+  char *_demangledName = abi::__cxa_demangle(mangledName.c_str(), 0, 0, &status);
+  const std::string demangledName(_demangledName);
+  std::free(_demangledName);
+  return ( demangledName == "MyNamespace::MyClass" ? 0 : 1 );
+}
+
+Performing C++ SOURCE FILE Test HAVE_TEUCHOS_BLASFLOAT succeded with the following output:
+Change Dir: /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2942011700/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2942011700.dir/build.make CMakeFiles/cmTryCompileExec2942011700.dir/build
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2942011700.dir/src.cxx.o
+/usr/bin/mpicxx    -std=c++11 -DHAVE_TEUCHOS_BLASFLOAT   -o CMakeFiles/cmTryCompileExec2942011700.dir/src.cxx.o -c /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2942011700
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2942011700.dir/link.txt --verbose=1
+/usr/bin/mpicxx    -std=c++11 -DHAVE_TEUCHOS_BLASFLOAT    CMakeFiles/cmTryCompileExec2942011700.dir/src.cxx.o  -o cmTryCompileExec2942011700 -rdynamic -lblas 
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' から出ます
+
+Return value: 1
+Source file was:
+
+#define F77_BLAS_MANGLE(name,NAME) name ## _
+
+#include <complex>
+
+#define SDOT_F77    F77_BLAS_MANGLE(sdot,   SDOT)
+#define SASUM_F77   F77_BLAS_MANGLE(sasum,  SASUM)
+#define SCASUM_F77  F77_BLAS_MANGLE(scasum, SCASUM)
+#define SNRM2_F77   F77_BLAS_MANGLE(snrm2,  SNRM2)
+#define SCNRM2_F77  F77_BLAS_MANGLE(scnrm2, SCNRM2)
+
+extern "C" {
+  float SDOT_F77(const int* n, const float x[], const int* incx, const float y[], const int* incy);
+  float SASUM_F77(const int* n, const float x[], const int* incx);
+  float SCASUM_F77(const int* n, const std::complex<float> x[], const int* incx);
+  float SNRM2_F77(const int* n, const float x[], const int* incx);
+  float SCNRM2_F77(const int* n, const std::complex<float> x[], const int* incx);
+}
+
+int main()
+{
+  const int n = 3;
+  const float x[n] = { -1.0, -2.0, -2.0};
+  const std::complex<float> xc[n] = { std::complex<float>(3.0,-4.0),
+                                      std::complex<float>(0.0,0.0),
+                                      std::complex<float>(0.0,0.0) };
+  const int incx = 1;
+  float val;
+
+  val = SDOT_F77(&n, x, &incx, x, &incx);
+  if (val != 9.0) return 1;
+
+  val = SASUM_F77(&n, x, &incx);
+  if (val != 5.0) return 1;
+
+  val = SNRM2_F77(&n, x, &incx);
+  if (val != 3.0) return 1;
+
+  val = SCASUM_F77(&n, xc, &incx);
+  if (val != 7.0) return 1;
+
+  val = SCNRM2_F77(&n, xc, &incx);
+  if (val != 5.0) return 1;
+
+  return 0;
+}
+  
+Performing C++ SOURCE FILE Test LAPACK_SLAPY2_WORKS succeded with the following output:
+Change Dir: /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1129089095/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1129089095.dir/build.make CMakeFiles/cmTryCompileExec1129089095.dir/build
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1129089095.dir/src.cxx.o
+/usr/bin/mpicxx    -std=c++11 -DLAPACK_SLAPY2_WORKS   -o CMakeFiles/cmTryCompileExec1129089095.dir/src.cxx.o -c /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1129089095
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1129089095.dir/link.txt --verbose=1
+/usr/bin/mpicxx    -std=c++11 -DLAPACK_SLAPY2_WORKS    CMakeFiles/cmTryCompileExec1129089095.dir/src.cxx.o  -o cmTryCompileExec1129089095 -rdynamic -llapack -lblas 
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' から出ます
+
+Return value: 1
+Source file was:
+
+#define F77_BLAS_MANGLE(name,NAME) name ## _
+
+extern "C" {
+  float F77_BLAS_MANGLE(slapy2,SLAPY2)(
+    const float* x, const float* y);
+}
+
+int main() {
+  float fx = 3.0f, fy = 4.0f;
+  float fret = F77_BLAS_MANGLE(slapy2,SLAPY2)(&fx, &fy);
+  return (fret == 5.0f ? 0 : 1);
+}
+  
+Performing C++ SOURCE FILE Test HAVE_CXX_ATTRIBUTE_CONSTRUCTOR succeded with the following output:
+Change Dir: /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec786296157/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec786296157.dir/build.make CMakeFiles/cmTryCompileExec786296157.dir/build
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec786296157.dir/src.cxx.o
+/usr/bin/mpicxx    -std=c++11 -DHAVE_CXX_ATTRIBUTE_CONSTRUCTOR   -o CMakeFiles/cmTryCompileExec786296157.dir/src.cxx.o -c /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec786296157
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec786296157.dir/link.txt --verbose=1
+/usr/bin/mpicxx    -std=c++11 -DHAVE_CXX_ATTRIBUTE_CONSTRUCTOR    CMakeFiles/cmTryCompileExec786296157.dir/src.cxx.o  -o cmTryCompileExec786296157 -rdynamic 
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' から出ます
+
+Source file was:
+
+#include <iostream>
+
+__attribute__((constructor)) static void theConstructor () {
+  std::cout << "Hi!  I am the static constructor." << std::endl;
+}
+
+int main() {
+  std::cout << "Hi!  I am main." << std::endl;
+  return 0;
+}
+  
+Performing C++ SOURCE FILE Test HAVE_CXX_ATTRIBUTE_WEAK succeded with the following output:
+Change Dir: /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2245074541/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2245074541.dir/build.make CMakeFiles/cmTryCompileExec2245074541.dir/build
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2245074541.dir/src.cxx.o
+/usr/bin/mpicxx    -std=c++11 -DHAVE_CXX_ATTRIBUTE_WEAK   -o CMakeFiles/cmTryCompileExec2245074541.dir/src.cxx.o -c /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2245074541
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2245074541.dir/link.txt --verbose=1
+/usr/bin/mpicxx    -std=c++11 -DHAVE_CXX_ATTRIBUTE_WEAK    CMakeFiles/cmTryCompileExec2245074541.dir/src.cxx.o  -o cmTryCompileExec2245074541 -rdynamic 
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' から出ます
+
+Source file was:
+
+#include <iostream>
+
+namespace A {
+// theFunction never gets defined, because we
+// don't link with a library that defines it.
+// That's OK, because it's weak linkage.
+extern void __attribute__((weak)) theFunction ();
+}
+
+int main() {
+  std::cout << "Hi!  I am main." << std::endl;
+  if (A::theFunction != NULL) {
+    // Should never be called, since we don't link
+    // with a library that defines A::theFunction.
+    A::theFunction ();
+  }
+  return 0;
+}
+  
+Performing C++ SOURCE FILE Test CXX_COMPLEX_BLAS_WORKS succeded with the following output:
+Change Dir: /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1236417303/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1236417303.dir/build.make CMakeFiles/cmTryCompileExec1236417303.dir/build
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1236417303.dir/src.cxx.o
+/usr/bin/mpicxx    -std=c++11 -DCXX_COMPLEX_BLAS_WORKS   -o CMakeFiles/cmTryCompileExec1236417303.dir/src.cxx.o -c /home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1236417303
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1236417303.dir/link.txt --verbose=1
+/usr/bin/mpicxx    -std=c++11 -DCXX_COMPLEX_BLAS_WORKS    CMakeFiles/cmTryCompileExec1236417303.dir/src.cxx.o  -o cmTryCompileExec1236417303 -rdynamic -lblas 
+make[1]: ディレクトリ `/home/tomii/simenv/trilinos/build/CMakeFiles/CMakeTmp' から出ます
+
+Return value: 1
+Source file was:
+
+#include <complex>
+
+#define F77_BLAS_MANGLE(name,NAME) name ## _
+
+extern "C" {
+  std::complex<float> F77_BLAS_MANGLE(cdotc,CDOTC)(
+    const int* n, const  std::complex<float> x[], const int* incx,
+    const std::complex<float> y[], const int* incy); 
+}
+
+int main() {
+  const int NUM=2;
+  const int INC=1;
+  std::complex<float> f[NUM];
+  const std::complex<float>
+    ONE = std::complex<float>(1.0,0.0),
+    TWO = std::complex<float>(2.0,0.0);
+  f[0] =  ONE;
+  f[1] =  ONE;
+  const std::complex<float> ret =
+    F77_BLAS_MANGLE(cdotc,CDOTC)(&NUM, f, &INC, f, &INC);
+  return (ret == TWO ? 0 : 1);
+}
+  

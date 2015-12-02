@@ -1,0 +1,2 @@
+/usr/bin/ar cr libtpetraext.a  CMakeFiles/tpetraext.dir/TpetraExt_MMHelpers.cpp.o CMakeFiles/tpetraext.dir/TpetraExt_MatrixMatrix.cpp.o
+/usr/bin/ranlib libtpetraext.a

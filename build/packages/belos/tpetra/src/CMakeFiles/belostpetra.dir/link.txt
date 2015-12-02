@@ -1,0 +1,2 @@
+/usr/bin/ar cr libbelostpetra.a  CMakeFiles/belostpetra.dir/BelosTpetraAdapter.cpp.o CMakeFiles/belostpetra.dir/Belos_Details_Tpetra_registerLinearSolverFactory.cpp.o
+/usr/bin/ranlib libbelostpetra.a

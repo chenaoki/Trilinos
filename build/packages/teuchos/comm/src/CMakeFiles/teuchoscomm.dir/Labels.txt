@@ -1,0 +1,36 @@
+# Target labels
+ TeuchosCommLibs
+ TeuchosLibs
+# Source files and their labels
+/home/tomii/simenv/trilinos/packages/teuchos/comm/src/Teuchos_CTimeMonitor.h
+/home/tomii/simenv/trilinos/packages/teuchos/comm/src/Teuchos_CommHelpers.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/comm/src/Teuchos_XMLParameterListHelpers.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/comm/src/Teuchos_Comm.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/comm/src/Teuchos_ReductionOp.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/comm/src/Teuchos_SerializationTraits.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/comm/src/Teuchos_DefaultComm.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/comm/src/Teuchos_SerializerHelpers.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/comm/src/Teuchos_TableColumn.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/comm/src/Teuchos_DefaultSerialComm.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/comm/src/Teuchos_Serializer.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/comm/src/Teuchos_SerializationTraitsHelpers.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/comm/src/Teuchos_TableEntry.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/comm/src/Teuchos_ReductionOpHelpers.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/comm/src/Teuchos_Details_MpiCommRequest.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/comm/src/Teuchos_CommUtilities.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/comm/src/Teuchos_DefaultMpiComm.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/comm/src/Teuchos_PerformanceMonitorBase.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/comm/src/Teuchos_TimeMonitor.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/comm/src/Teuchos_MpiReductionOpSetter.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/comm/src/Teuchos_TableFormat.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/comm/src/Teuchos_TableFormat.cpp
+/home/tomii/simenv/trilinos/packages/teuchos/comm/src/Teuchos_Details_MpiCommRequest.cpp
+/home/tomii/simenv/trilinos/packages/teuchos/comm/src/Teuchos_CommHelpers.cpp
+/home/tomii/simenv/trilinos/packages/teuchos/comm/src/Teuchos_TableColumn.cpp
+/home/tomii/simenv/trilinos/packages/teuchos/comm/src/Teuchos_DefaultMpiComm.cpp
+/home/tomii/simenv/trilinos/packages/teuchos/comm/src/Teuchos_CTimeMonitor.cpp
+/home/tomii/simenv/trilinos/packages/teuchos/comm/src/Teuchos_TimeMonitor.cpp
+/home/tomii/simenv/trilinos/packages/teuchos/comm/src/Teuchos_PerformanceMonitorBase.cpp
+/home/tomii/simenv/trilinos/packages/teuchos/comm/src/Teuchos_XMLParameterListHelpers.cpp
+/home/tomii/simenv/trilinos/packages/teuchos/comm/src/Teuchos_MpiReductionOpSetter.cpp
+/home/tomii/simenv/trilinos/packages/teuchos/comm/src/Teuchos_TableEntry.cpp

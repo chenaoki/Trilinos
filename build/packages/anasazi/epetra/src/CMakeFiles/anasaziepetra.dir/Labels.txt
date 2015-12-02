@@ -1,0 +1,9 @@
+# Target labels
+ AnasaziLibs
+ AnasaziLibs
+# Source files and their labels
+/home/tomii/simenv/trilinos/build/packages/anasazi/epetra/src/Anasaziepetra_DLLExportMacro.h
+/home/tomii/simenv/trilinos/packages/anasazi/epetra/src/AnasaziEpetraAdapter.hpp
+/home/tomii/simenv/trilinos/packages/anasazi/epetra/src/AnasaziSpecializedEpetraAdapter.hpp
+/home/tomii/simenv/trilinos/packages/anasazi/epetra/src/AnasaziEpetraAdapter.cpp
+/home/tomii/simenv/trilinos/packages/anasazi/epetra/src/AnasaziSpecializedEpetraAdapter.cpp

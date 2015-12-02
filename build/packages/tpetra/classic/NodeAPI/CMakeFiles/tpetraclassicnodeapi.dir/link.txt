@@ -1,0 +1,2 @@
+/usr/bin/ar cr libtpetraclassicnodeapi.a  CMakeFiles/tpetraclassicnodeapi.dir/Kokkos_DefaultNode.cpp.o CMakeFiles/tpetraclassicnodeapi.dir/Kokkos_NodeAPIVersion.cpp.o
+/usr/bin/ranlib libtpetraclassicnodeapi.a

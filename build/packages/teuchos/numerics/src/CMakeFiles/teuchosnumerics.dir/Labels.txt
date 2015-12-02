@@ -1,0 +1,49 @@
+# Target labels
+ TeuchosNumericsLibs
+ TeuchosLibs
+# Source files and their labels
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_PromotionTraits.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_BLAS_wrappers.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_MatrixMarket_SymmetrizingAdder.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_SerialDenseHelpers.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_MatrixMarket_SetScientific.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_MatrixMarket_Raw_Checker.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_MatrixMarket_Raw_Writer.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_SerialSymDenseMatrix.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_LAPACK_wrappers.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_Flops.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_ExpandScalarTypeMacros.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_BLAS.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_SerialBandDenseMatrix.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_SerialSpdDenseSolver.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_BLAS_types.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_SerialQRDenseSolver.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_MatrixMarket_Banner.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_MatrixMarket_Raw_Reader.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_MatrixMarket_split.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_MatrixMarket_CoordDataReader.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_SerialBandDenseSolver.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_Object.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_MatrixMarket_Raw_Adder.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_SerialTriDiMatrix.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_MatrixMarket_assignScalar.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_SerialDenseSolver.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_CompObject.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_MatrixMarket_generic.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_PolynomialDecl.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_Polynomial.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_Details_Lapack128.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_PolynomialTraits.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_SerialDenseMatrix.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_DataAccess.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_LAPACK.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_SerialDenseVector.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_Flops.cpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_LAPACK.cpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_CompObject.cpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_MatrixMarket_split.cpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_Object.cpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_MatrixMarket_generic.cpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_MatrixMarket_Banner.cpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_Details_Lapack128.cpp
+/home/tomii/simenv/trilinos/packages/teuchos/numerics/src/Teuchos_BLAS.cpp

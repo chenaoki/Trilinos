@@ -1,0 +1,2 @@
+/usr/bin/ar cr libthyra_nonlinear_test_models.a  CMakeFiles/thyra_nonlinear_test_models.dir/Thyra_DiagonalQuadraticResponseOnlyModelEvaluator.cpp.o CMakeFiles/thyra_nonlinear_test_models.dir/Thyra_Simple2DModelEvaluator.cpp.o CMakeFiles/thyra_nonlinear_test_models.dir/Thyra_DummyTestModelEvaluator.cpp.o CMakeFiles/thyra_nonlinear_test_models.dir/Thyra_DiagonalScalarProd.cpp.o
+/usr/bin/ranlib libthyra_nonlinear_test_models.a

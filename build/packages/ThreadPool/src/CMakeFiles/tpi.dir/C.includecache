@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../packages/ThreadPool/src/TPI.h
+
+/home/tomii/simenv/trilinos/packages/ThreadPool/src/TPI.c
+TPI.h
+-
+stdlib.h
+-
+stdio.h
+-
+ThreadPool_config.h
+-
+errno.h
+-
+pthread.h
+-
+sched.h
+-
+
+/home/tomii/simenv/trilinos/packages/ThreadPool/src/TPI_Walltime.c
+TPI.h
+-
+stddef.h
+-
+gettimeofday.c
+-
+sys/time.h
+-
+
+packages/ThreadPool/src/ThreadPool_config.h
+

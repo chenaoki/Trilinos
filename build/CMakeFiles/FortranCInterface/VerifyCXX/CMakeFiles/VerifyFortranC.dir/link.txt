@@ -1,0 +1,1 @@
+/usr/bin/mpicxx   -O3    CMakeFiles/VerifyFortranC.dir/main.c.o CMakeFiles/VerifyFortranC.dir/VerifyC.c.o CMakeFiles/VerifyFortranC.dir/VerifyCXX.cxx.o  -o VerifyFortranC -rdynamic libVerifyFortran.a -lmpi_f90 -lmpi_f77 -lgfortran -lquadmath 

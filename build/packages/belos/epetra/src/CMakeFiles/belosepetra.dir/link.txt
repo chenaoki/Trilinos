@@ -1,0 +1,2 @@
+/usr/bin/ar cr libbelosepetra.a  CMakeFiles/belosepetra.dir/BelosEpetraAdapter.cpp.o CMakeFiles/belosepetra.dir/BelosEpetraOperator.cpp.o CMakeFiles/belosepetra.dir/Belos_Details_Epetra_registerLinearSolverFactory.cpp.o
+/usr/bin/ranlib libbelosepetra.a

@@ -1,0 +1,6 @@
+# Target labels
+ AnasaziLibs
+ AnasaziLibs
+# Source files and their labels
+/home/tomii/simenv/trilinos/packages/anasazi/tpetra/src/AnasaziTpetraAdapter.hpp
+/home/tomii/simenv/trilinos/packages/anasazi/tpetra/src/AnasaziTpetraAdapter.cpp

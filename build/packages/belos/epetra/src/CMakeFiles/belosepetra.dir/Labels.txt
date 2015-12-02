@@ -1,0 +1,10 @@
+# Target labels
+ BelosLibs
+ BelosLibs
+# Source files and their labels
+/home/tomii/simenv/trilinos/packages/belos/epetra/src/BelosEpetraAdapter.hpp
+/home/tomii/simenv/trilinos/packages/belos/epetra/src/BelosEpetraOperator.h
+/home/tomii/simenv/trilinos/packages/belos/epetra/src/Belos_Details_Epetra_registerLinearSolverFactory.hpp
+/home/tomii/simenv/trilinos/packages/belos/epetra/src/BelosEpetraAdapter.cpp
+/home/tomii/simenv/trilinos/packages/belos/epetra/src/BelosEpetraOperator.cpp
+/home/tomii/simenv/trilinos/packages/belos/epetra/src/Belos_Details_Epetra_registerLinearSolverFactory.cpp

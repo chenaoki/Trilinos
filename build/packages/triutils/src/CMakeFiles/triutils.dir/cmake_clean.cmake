@@ -1,0 +1,40 @@
+FILE(REMOVE_RECURSE
+  "CMakeFiles/triutils.dir/Trilinos_Util_duscr_vbr.cpp.o"
+  "CMakeFiles/triutils.dir/Trilinos_Util_dusds_vbr.cpp.o"
+  "CMakeFiles/triutils.dir/Trilinos_Util_distrib_vbr_matrix.cpp.o"
+  "CMakeFiles/triutils.dir/Trilinos_Util_read_hb.cpp.o"
+  "CMakeFiles/triutils.dir/Trilinos_Util_svbrres.cpp.o"
+  "CMakeFiles/triutils.dir/Trilinos_Util_dusmm.cpp.o"
+  "CMakeFiles/triutils.dir/Trilinos_Util_scscmv.cpp.o"
+  "CMakeFiles/triutils.dir/Trilinos_Util_read_vec.cpp.o"
+  "CMakeFiles/triutils.dir/Trilinos_Util_write_vec.cpp.o"
+  "CMakeFiles/triutils.dir/Trilinos_Util_create_vbr.cpp.o"
+  "CMakeFiles/triutils.dir/Trilinos_Util_msr2vbr.cpp.o"
+  "CMakeFiles/triutils.dir/Trilinos_Util_scscres.cpp.o"
+  "CMakeFiles/triutils.dir/Trilinos_Util_distrib_msr_matrix.cpp.o"
+  "CMakeFiles/triutils.dir/Trilinos_Util_read_coo.cpp.o"
+  "CMakeFiles/triutils.dir/Trilinos_Util_smsrres.cpp.o"
+  "CMakeFiles/triutils.dir/Trilinos_Util_csrcsc.cpp.o"
+  "CMakeFiles/triutils.dir/Trilinos_Util_csrmsr.cpp.o"
+  "CMakeFiles/triutils.dir/Trilinos_Util_ssrcsr.cpp.o"
+  "CMakeFiles/triutils.dir/Trilinos_Util_coocsr.cpp.o"
+  "CMakeFiles/triutils.dir/Trilinos_Util_ReadMatrixMarket2Epetra.cpp.o"
+  "CMakeFiles/triutils.dir/Trilinos_Util_ReadTriples2Epetra.cpp.o"
+  "CMakeFiles/triutils.dir/Trilinos_Util_CountMatrixMarket.cpp.o"
+  "CMakeFiles/triutils.dir/Trilinos_Util_CountTriples.cpp.o"
+  "CMakeFiles/triutils.dir/Trilinos_Util_ReadHb2Epetra.cpp.o"
+  "CMakeFiles/triutils.dir/Trilinos_Util_ReadHpc2Epetra.cpp.o"
+  "CMakeFiles/triutils.dir/Trilinos_Util_ReadHb2EpetraVbr.cpp.o"
+  "CMakeFiles/triutils.dir/Trilinos_Util_GenerateCrsProblem.cpp.o"
+  "CMakeFiles/triutils.dir/Trilinos_Util_GenerateVbrProblem.cpp.o"
+  "CMakeFiles/triutils.dir/Trilinos_Util_CommandLineParser.cpp.o"
+  "CMakeFiles/triutils.dir/Trilinos_Util_CrsMatrixGallery.cpp.o"
+  "CMakeFiles/triutils.dir/Trilinos_Util_iohb.cpp.o"
+  "libtriutils.pdb"
+  "libtriutils.a"
+)
+
+# Per-language clean rules from dependency scanning.
+FOREACH(lang CXX)
+  INCLUDE(CMakeFiles/triutils.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)

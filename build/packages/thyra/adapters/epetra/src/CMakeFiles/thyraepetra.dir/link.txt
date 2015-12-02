@@ -1,0 +1,2 @@
+/usr/bin/ar cr libthyraepetra.a  CMakeFiles/thyraepetra.dir/Thyra_get_Epetra_Operator.cpp.o CMakeFiles/thyraepetra.dir/Thyra_EpetraOperatorViewExtractorStd.cpp.o CMakeFiles/thyraepetra.dir/Thyra_EpetraOperatorWrapper.cpp.o CMakeFiles/thyraepetra.dir/Thyra_EpetraThyraWrappers.cpp.o CMakeFiles/thyraepetra.dir/Thyra_DiagonalEpetraLinearOpWithSolveFactory.cpp.o CMakeFiles/thyraepetra.dir/Thyra_EpetraLinearOp.cpp.o
+/usr/bin/ranlib libthyraepetra.a

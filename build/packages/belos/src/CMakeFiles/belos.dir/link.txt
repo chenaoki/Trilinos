@@ -1,0 +1,2 @@
+/usr/bin/ar cr libbelos.a  CMakeFiles/belos.dir/BelosTypes.cpp.o CMakeFiles/belos.dir/BelosVersion.cpp.o CMakeFiles/belos.dir/Belos_Details_registerLinearSolverFactory.cpp.o
+/usr/bin/ranlib libbelos.a

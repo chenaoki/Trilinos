@@ -1,0 +1,13 @@
+# Target labels
+ TpetraCoreLibs
+ TpetraLibs
+# Source files and their labels
+/home/tomii/simenv/trilinos/packages/tpetra/core/ext/TpetraExt_MatrixMatrix_decl.hpp
+/home/tomii/simenv/trilinos/packages/tpetra/core/ext/TpetraExt_MMHelpers_def.hpp
+/home/tomii/simenv/trilinos/packages/tpetra/core/ext/TpetraExt_TypeStack.hpp
+/home/tomii/simenv/trilinos/packages/tpetra/core/ext/TpetraExt_MMHelpers_decl.hpp
+/home/tomii/simenv/trilinos/packages/tpetra/core/ext/TpetraExt_MatrixMatrix_def.hpp
+/home/tomii/simenv/trilinos/packages/tpetra/core/ext/TpetraExt_MMHelpers.cpp
+/home/tomii/simenv/trilinos/packages/tpetra/core/ext/TpetraExt_MatrixMatrix.cpp
+/home/tomii/simenv/trilinos/build/packages/tpetra/core/ext/TpetraExt_MatrixMatrix.hpp
+/home/tomii/simenv/trilinos/build/packages/tpetra/core/ext/TpetraExt_MMHelpers.hpp

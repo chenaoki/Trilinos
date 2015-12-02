@@ -1,0 +1,9 @@
+# Target labels
+ TpetraClassicLibs
+ TpetraLibs
+# Source files and their labels
+/home/tomii/simenv/trilinos/packages/tpetra/classic/LinAlg/Kokkos_LinAlgVersion.hpp
+/home/tomii/simenv/trilinos/packages/tpetra/classic/LinAlg/Kokkos_MultiVector.hpp
+/home/tomii/simenv/trilinos/packages/tpetra/classic/LinAlg/Kokkos_MultiVectorKernelOps.hpp
+/home/tomii/simenv/trilinos/packages/tpetra/classic/LinAlg/Kokkos_DefaultArithmetic.hpp
+/home/tomii/simenv/trilinos/packages/tpetra/classic/LinAlg/Kokkos_LinAlgVersion.cpp

@@ -1,0 +1,5 @@
+# Target labels
+ GtestLibs
+ GtestLibs
+# Source files and their labels
+/home/tomii/simenv/trilinos/commonTools/gtest/gtest/gtest-all.cc

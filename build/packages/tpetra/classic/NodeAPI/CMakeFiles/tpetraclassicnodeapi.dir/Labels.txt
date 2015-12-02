@@ -1,0 +1,12 @@
+# Target labels
+ TpetraClassicLibs
+ TpetraLibs
+# Source files and their labels
+/home/tomii/simenv/trilinos/packages/tpetra/classic/NodeAPI/Kokkos_BufferMacros.hpp
+/home/tomii/simenv/trilinos/packages/tpetra/classic/NodeAPI/Kokkos_DefaultNode.hpp
+/home/tomii/simenv/trilinos/packages/tpetra/classic/NodeAPI/Kokkos_NodeAPIConfigDefs.hpp
+/home/tomii/simenv/trilinos/packages/tpetra/classic/NodeAPI/Kokkos_NodeAPIVersion.hpp
+/home/tomii/simenv/trilinos/packages/tpetra/classic/NodeAPI/Kokkos_NodeHelpers.hpp
+/home/tomii/simenv/trilinos/build/packages/tpetra/classic/NodeAPI/KokkosClassic_DefaultNode_config.h
+/home/tomii/simenv/trilinos/packages/tpetra/classic/NodeAPI/Kokkos_DefaultNode.cpp
+/home/tomii/simenv/trilinos/packages/tpetra/classic/NodeAPI/Kokkos_NodeAPIVersion.cpp

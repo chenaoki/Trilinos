@@ -1,0 +1,8 @@
+# Target labels
+ TpetraClassicLibs
+ TpetraLibs
+# Source files and their labels
+/home/tomii/simenv/trilinos/build/packages/tpetra/classic/src/TpetraClassic_config.h
+/home/tomii/simenv/trilinos/packages/tpetra/classic/src/Kokkos_ConfigDefs.hpp
+/home/tomii/simenv/trilinos/packages/tpetra/classic/src/Kokkos_Version.hpp
+/home/tomii/simenv/trilinos/packages/tpetra/classic/src/Kokkos_Version.cpp

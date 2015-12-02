@@ -1,0 +1,11 @@
+# Target labels
+ TeuchosKokkosCompatLibs
+ TeuchosLibs
+# Source files and their labels
+/home/tomii/simenv/trilinos/packages/teuchos/kokkoscompat/src/KokkosCompat_TMM.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/kokkoscompat/src/KokkosCompat_ClassicNodeAPI_Wrapper.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/kokkoscompat/src/KokkosCompat_View_def.hpp
+/home/tomii/simenv/trilinos/packages/teuchos/kokkoscompat/src/KokkosCompat_View.hpp
+/home/tomii/simenv/trilinos/build/packages/teuchos/kokkoscompat/src/TeuchosKokkosCompat_config.h
+/home/tomii/simenv/trilinos/packages/teuchos/kokkoscompat/src/KokkosCompat_View.cpp
+/home/tomii/simenv/trilinos/packages/teuchos/kokkoscompat/src/KokkosCompat_ClassicNodeAPI_Wrapper.cpp

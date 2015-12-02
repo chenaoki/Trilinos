@@ -1,0 +1,2 @@
+/usr/bin/ar cr libanasazitpetra.a  CMakeFiles/anasazitpetra.dir/AnasaziTpetraAdapter.cpp.o
+/usr/bin/ranlib libanasazitpetra.a

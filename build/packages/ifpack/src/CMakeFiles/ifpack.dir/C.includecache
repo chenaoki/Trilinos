@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tomii/simenv/trilinos/packages/ifpack/src/Ifpack_MultiListSort.c
+Ifpack_config.h
+/home/tomii/simenv/trilinos/packages/ifpack/src/Ifpack_config.h
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+
+packages/ifpack/src/Ifpack_config.h
+

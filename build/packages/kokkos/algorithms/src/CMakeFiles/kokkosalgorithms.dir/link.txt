@@ -1,0 +1,2 @@
+/usr/bin/ar cr libkokkosalgorithms.a  CMakeFiles/kokkosalgorithms.dir/KokkosAlgorithms_dummy.cpp.o
+/usr/bin/ranlib libkokkosalgorithms.a

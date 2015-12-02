@@ -1,0 +1,2 @@
+/usr/bin/ar cr liblast_lib.a  CMakeFiles/last_lib.dir/last_lib_dummy.c.o
+/usr/bin/ranlib liblast_lib.a

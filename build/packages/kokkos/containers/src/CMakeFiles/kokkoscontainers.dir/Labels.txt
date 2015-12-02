@@ -1,0 +1,16 @@
+# Target labels
+ KokkosContainersLibs
+ KokkosLibs
+# Source files and their labels
+/home/tomii/simenv/trilinos/packages/kokkos/containers/src/Kokkos_StaticCrsGraph.hpp
+/home/tomii/simenv/trilinos/packages/kokkos/containers/src/Kokkos_Bitset.hpp
+/home/tomii/simenv/trilinos/packages/kokkos/containers/src/Kokkos_SegmentedView.hpp
+/home/tomii/simenv/trilinos/packages/kokkos/containers/src/Kokkos_Vector.hpp
+/home/tomii/simenv/trilinos/packages/kokkos/containers/src/Kokkos_Functional.hpp
+/home/tomii/simenv/trilinos/packages/kokkos/containers/src/Kokkos_DualView.hpp
+/home/tomii/simenv/trilinos/packages/kokkos/containers/src/Kokkos_UnorderedMap.hpp
+/home/tomii/simenv/trilinos/packages/kokkos/containers/src/impl/Kokkos_Bitset_impl.hpp
+/home/tomii/simenv/trilinos/packages/kokkos/containers/src/impl/Kokkos_Functional_impl.hpp
+/home/tomii/simenv/trilinos/packages/kokkos/containers/src/impl/Kokkos_StaticCrsGraph_factory.hpp
+/home/tomii/simenv/trilinos/packages/kokkos/containers/src/impl/Kokkos_UnorderedMap_impl.hpp
+/home/tomii/simenv/trilinos/packages/kokkos/containers/src/impl/Kokkos_UnorderedMap_impl.cpp

@@ -1,0 +1,19 @@
+# Target labels
+ ThyraEpetraAdaptersLibs
+ ThyraLibs
+# Source files and their labels
+/home/tomii/simenv/trilinos/packages/thyra/adapters/epetra/src/Thyra_EpetraOperatorWrapper.hpp
+/home/tomii/simenv/trilinos/packages/thyra/adapters/epetra/src/Thyra_get_Epetra_Operator.hpp
+/home/tomii/simenv/trilinos/packages/thyra/adapters/epetra/src/Thyra_EpetraTypes.hpp
+/home/tomii/simenv/trilinos/packages/thyra/adapters/epetra/src/Thyra_EpetraOperatorViewExtractorStd.hpp
+/home/tomii/simenv/trilinos/packages/thyra/adapters/epetra/src/Thyra_EpetraOperatorViewExtractorBase.hpp
+/home/tomii/simenv/trilinos/packages/thyra/adapters/epetra/src/Thyra_EpetraLinearOpBase.hpp
+/home/tomii/simenv/trilinos/packages/thyra/adapters/epetra/src/Thyra_EpetraLinearOp.hpp
+/home/tomii/simenv/trilinos/packages/thyra/adapters/epetra/src/Thyra_EpetraThyraWrappers.hpp
+/home/tomii/simenv/trilinos/packages/thyra/adapters/epetra/src/Thyra_DiagonalEpetraLinearOpWithSolveFactory.hpp
+/home/tomii/simenv/trilinos/packages/thyra/adapters/epetra/src/Thyra_get_Epetra_Operator.cpp
+/home/tomii/simenv/trilinos/packages/thyra/adapters/epetra/src/Thyra_EpetraOperatorViewExtractorStd.cpp
+/home/tomii/simenv/trilinos/packages/thyra/adapters/epetra/src/Thyra_EpetraOperatorWrapper.cpp
+/home/tomii/simenv/trilinos/packages/thyra/adapters/epetra/src/Thyra_EpetraThyraWrappers.cpp
+/home/tomii/simenv/trilinos/packages/thyra/adapters/epetra/src/Thyra_DiagonalEpetraLinearOpWithSolveFactory.cpp
+/home/tomii/simenv/trilinos/packages/thyra/adapters/epetra/src/Thyra_EpetraLinearOp.cpp

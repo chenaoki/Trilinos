@@ -1,0 +1,10 @@
+# Target labels
+ TpetraCoreLibs
+ TpetraLibs
+# Source files and their labels
+/home/tomii/simenv/trilinos/packages/tpetra/core/inout/MatrixMarket_Tpetra.hpp
+/home/tomii/simenv/trilinos/packages/tpetra/core/inout/Tpetra_MatrixIO_decl.hpp
+/home/tomii/simenv/trilinos/packages/tpetra/core/inout/Tpetra_MatrixIO_def.hpp
+/home/tomii/simenv/trilinos/packages/tpetra/core/inout/Tpetra_MatrixIO.cpp
+/home/tomii/simenv/trilinos/packages/tpetra/core/inout/MatrixMarket_Tpetra.cpp
+/home/tomii/simenv/trilinos/build/packages/tpetra/core/inout/Tpetra_MatrixIO.hpp

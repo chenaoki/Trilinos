@@ -1,0 +1,2 @@
+/usr/bin/ar cr libanasazi.a  CMakeFiles/anasazi.dir/AnasaziVersion.cpp.o
+/usr/bin/ranlib libanasazi.a

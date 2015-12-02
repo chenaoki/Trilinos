@@ -1,0 +1,2 @@
+/usr/bin/ar cr libteuchosremainder.a  CMakeFiles/teuchosremainder.dir/Teuchos_Libxml2HandlerAdapter.cpp.o CMakeFiles/teuchosremainder.dir/Teuchos_FloatingPointTrap.cpp.o CMakeFiles/teuchosremainder.dir/Trilinos_Details_LinearSolverFactory.cpp.o CMakeFiles/teuchosremainder.dir/Teuchos_StringToIntMap.cpp.o
+/usr/bin/ranlib libteuchosremainder.a

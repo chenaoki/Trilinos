@@ -1,0 +1,8 @@
+# Target labels
+ BelosLibs
+ BelosLibs
+# Source files and their labels
+/home/tomii/simenv/trilinos/packages/belos/tpetra/src/BelosTpetraAdapter.hpp
+/home/tomii/simenv/trilinos/packages/belos/tpetra/src/Belos_Details_Tpetra_registerLinearSolverFactory.hpp
+/home/tomii/simenv/trilinos/packages/belos/tpetra/src/BelosTpetraAdapter.cpp
+/home/tomii/simenv/trilinos/packages/belos/tpetra/src/Belos_Details_Tpetra_registerLinearSolverFactory.cpp

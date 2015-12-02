@@ -1,0 +1,2 @@
+/usr/bin/ar cr libtpetrainout.a  CMakeFiles/tpetrainout.dir/Tpetra_MatrixIO.cpp.o CMakeFiles/tpetrainout.dir/MatrixMarket_Tpetra.cpp.o
+/usr/bin/ranlib libtpetrainout.a

@@ -1,0 +1,2 @@
+/usr/bin/ar cr libModeLaplace.a  CMakeFiles/ModeLaplace.dir/BlockPCGSolver.cpp.o CMakeFiles/ModeLaplace.dir/CheckingTools.cpp.o CMakeFiles/ModeLaplace.dir/ModeLaplace1DQ1.cpp.o CMakeFiles/ModeLaplace.dir/ModeLaplace1DQ2.cpp.o CMakeFiles/ModeLaplace.dir/ModeLaplace2DQ1.cpp.o CMakeFiles/ModeLaplace.dir/ModeLaplace2DQ2.cpp.o CMakeFiles/ModeLaplace.dir/ModeLaplace3DQ1.cpp.o CMakeFiles/ModeLaplace.dir/ModeLaplace3DQ2.cpp.o CMakeFiles/ModeLaplace.dir/SortingTools.cpp.o
+/usr/bin/ranlib libModeLaplace.a

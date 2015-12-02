@@ -1,0 +1,2 @@
+/usr/bin/ar cr libteuchoskokkoscomm.a  CMakeFiles/teuchoskokkoscomm.dir/KokkosMpiComm_dummy.cpp.o
+/usr/bin/ranlib libteuchoskokkoscomm.a

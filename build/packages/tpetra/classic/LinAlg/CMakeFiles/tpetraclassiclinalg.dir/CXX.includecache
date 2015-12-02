@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tomii/simenv/trilinos/packages/tpetra/classic/LinAlg/Kokkos_LinAlgVersion.cpp
+Kokkos_LinAlgVersion.hpp
+/home/tomii/simenv/trilinos/packages/tpetra/classic/LinAlg/Kokkos_LinAlgVersion.hpp
+Trilinos_version.h
+/home/tomii/simenv/trilinos/packages/tpetra/classic/LinAlg/Trilinos_version.h
+
+/home/tomii/simenv/trilinos/packages/tpetra/classic/LinAlg/Kokkos_LinAlgVersion.hpp
+string
+-
+
+Trilinos_version.h
+

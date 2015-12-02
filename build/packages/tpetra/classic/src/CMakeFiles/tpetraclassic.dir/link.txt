@@ -1,0 +1,2 @@
+/usr/bin/ar cr libtpetraclassic.a  CMakeFiles/tpetraclassic.dir/Kokkos_Version.cpp.o
+/usr/bin/ranlib libtpetraclassic.a
