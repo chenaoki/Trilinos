@@ -118,3 +118,5 @@ rsync.*
 
 # Ignore Panassas temp files
 .panfs.*
+install
+install
